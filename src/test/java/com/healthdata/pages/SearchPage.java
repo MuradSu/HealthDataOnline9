@@ -94,7 +94,8 @@ public class SearchPage {
 	@FindBy(id="edit-sort-by")
 	public WebElement sortBy;
 	
-
+    @FindBy(xpath="//div[@class='view-header']")
+    public WebElement healthAndCommunity;
 	
 	
 }
