@@ -1,65 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke tests" duration-ms="25028" started-at="2018-07-29T17:17:27Z" finished-at="2018-07-29T17:17:52Z">
+  <suite name="Default suite" duration-ms="7791" started-at="2018-07-29T23:32:07Z" finished-at="2018-07-29T23:32:15Z">
     <groups>
       <group name="smoke">
-        <method signature="InvalidSearch.InvalidSearchTermInSearchBox()[pri:0, instance:com.healthdata.tests.InvalidSearch@2f686d1f]" name="InvalidSearchTermInSearchBox" class="com.healthdata.tests.InvalidSearch"/>
-        <method signature="searchTest.test()[pri:0, instance:com.healthdata.tests.searchTest@42dafa95]" name="test" class="com.healthdata.tests.searchTest"/>
+        <method signature="TwoLinksAssertion.ClickOnTwoLinks()[pri:0, instance:com.healthdata.tests.TwoLinksAssertion@31ef45e3]" name="ClickOnTwoLinks" class="com.healthdata.tests.TwoLinksAssertion"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="smoke" duration-ms="25028" started-at="2018-07-29T17:17:27Z" finished-at="2018-07-29T17:17:52Z">
-      <class name="com.healthdata.tests.searchTest">
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.healthdata.tests.searchTest@42dafa95]" name="setUpTest" is-config="true" duration-ms="825" started-at="2018-07-29T17:17:26Z" finished-at="2018-07-29T17:17:27Z">
+    <test name="Default test" duration-ms="7791" started-at="2018-07-29T23:32:07Z" finished-at="2018-07-29T23:32:15Z">
+      <class name="com.healthdata.tests.TwoLinksAssertion">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.healthdata.tests.TwoLinksAssertion@31ef45e3]" name="setUpTest" is-config="true" duration-ms="244" started-at="2018-07-29T23:32:07Z" finished-at="2018-07-29T23:32:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.healthdata.tests.searchTest@42dafa95]" name="setUp" is-config="true" duration-ms="13145" started-at="2018-07-29T17:17:27Z" finished-at="2018-07-29T17:17:41Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.healthdata.tests.TwoLinksAssertion@31ef45e3]" name="setUp" is-config="true" duration-ms="5671" started-at="2018-07-29T23:32:07Z" finished-at="2018-07-29T23:32:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.healthdata.tests.searchTest@42dafa95]" name="test" duration-ms="8" started-at="2018-07-29T17:17:41Z" finished-at="2018-07-29T17:17:41Z">
+        <test-method status="PASS" signature="ClickOnTwoLinks()[pri:0, instance:com.healthdata.tests.TwoLinksAssertion@31ef45e3]" name="ClickOnTwoLinks" duration-ms="1236" started-at="2018-07-29T23:32:13Z" finished-at="2018-07-29T23:32:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.healthdata.tests.searchTest@42dafa95]" name="tearDown" is-config="true" duration-ms="2006" started-at="2018-07-29T17:17:41Z" finished-at="2018-07-29T17:17:43Z">
+        </test-method> <!-- ClickOnTwoLinks -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.healthdata.tests.TwoLinksAssertion@31ef45e3]" name="tearDown" is-config="true" duration-ms="860" started-at="2018-07-29T23:32:14Z" finished-at="2018-07-29T23:32:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test status=SUCCESS method=searchTest.test()[pri:0, instance:com.healthdata.tests.searchTest@42dafa95] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnTwoLinks status=SUCCESS method=TwoLinksAssertion.ClickOnTwoLinks()[pri:0, instance:com.healthdata.tests.TwoLinksAssertion@31ef45e3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.healthdata.tests.searchTest@42dafa95]" name="tearDownTest" is-config="true" duration-ms="2" started-at="2018-07-29T17:17:52Z" finished-at="2018-07-29T17:17:52Z">
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.healthdata.tests.TwoLinksAssertion@31ef45e3]" name="tearDownTest" is-config="true" duration-ms="0" started-at="2018-07-29T23:32:15Z" finished-at="2018-07-29T23:32:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-      </class> <!-- com.healthdata.tests.searchTest -->
-      <class name="com.healthdata.tests.InvalidSearch">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.healthdata.tests.InvalidSearch@2f686d1f]" name="setUp" is-config="true" duration-ms="7070" started-at="2018-07-29T17:17:43Z" finished-at="2018-07-29T17:17:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="InvalidSearchTermInSearchBox()[pri:0, instance:com.healthdata.tests.InvalidSearch@2f686d1f]" name="InvalidSearchTermInSearchBox" duration-ms="1505" started-at="2018-07-29T17:17:50Z" finished-at="2018-07-29T17:17:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InvalidSearchTermInSearchBox -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.healthdata.tests.InvalidSearch@2f686d1f]" name="tearDown" is-config="true" duration-ms="1204" started-at="2018-07-29T17:17:51Z" finished-at="2018-07-29T17:17:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=InvalidSearchTermInSearchBox status=SUCCESS method=InvalidSearch.InvalidSearchTermInSearchBox()[pri:0, instance:com.healthdata.tests.InvalidSearch@2f686d1f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.healthdata.tests.InvalidSearch -->
-    </test> <!-- smoke -->
-  </suite> <!-- Smoke tests -->
+      </class> <!-- com.healthdata.tests.TwoLinksAssertion -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

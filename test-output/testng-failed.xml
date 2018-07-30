@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Smoke tests]" guice-stage="DEVELOPMENT" verbose="2">
-  <test thread-count="5" name="smoke(failed)" verbose="2">
-    <groups>
-      <run>
-        <include name="smoke"/>
-      </run>
-    </groups>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.healthdata.tests.InvalidSearch">
+      <class name="com.healthdata.tests.TwoLinksAssertion">
         <methods>
           <include name="tearDown"/>
-          <include name="InvalidSearchTermInSearchBox"/>
+          <include name="ClickOnTwoLinks"/>
           <include name="tearDownTest"/>
           <include name="setUpTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.healthdata.tests.InvalidSearch -->
+      </class> <!-- com.healthdata.tests.TwoLinksAssertion -->
     </classes>
-  </test> <!-- smoke(failed) -->
-</suite> <!-- Failed suite [Smoke tests] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
