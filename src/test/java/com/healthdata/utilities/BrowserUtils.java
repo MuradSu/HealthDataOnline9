@@ -9,6 +9,8 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 
+import javax.xml.stream.events.Characters;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -142,4 +144,19 @@ public class BrowserUtils {
 		FileUtils.copyFile(source, finalDestination);
 		return target;
 	}
+	
+	public static int getNumbers(String str) {
+		
+		String num="";
+		for (int i = 0; i < str.length(); i++) {
+			if(Character.isDigit(str.charAt(i))) {
+				num+=str.charAt(i);
+			}
+		}
+		int result = Integer.parseInt(str);
+		
+		return result;
+	}
+	
+	
 }

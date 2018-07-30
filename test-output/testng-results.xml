@@ -2,27 +2,27 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7791" started-at="2018-07-29T23:32:07Z" finished-at="2018-07-29T23:32:15Z">
+  <suite name="Default suite" duration-ms="10941" started-at="2018-07-30T02:54:28Z" finished-at="2018-07-30T02:54:39Z">
     <groups>
       <group name="smoke">
         <method signature="TwoLinksAssertion.ClickOnTwoLinks()[pri:0, instance:com.healthdata.tests.TwoLinksAssertion@31ef45e3]" name="ClickOnTwoLinks" class="com.healthdata.tests.TwoLinksAssertion"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="7791" started-at="2018-07-29T23:32:07Z" finished-at="2018-07-29T23:32:15Z">
+    <test name="Default test" duration-ms="10941" started-at="2018-07-30T02:54:28Z" finished-at="2018-07-30T02:54:39Z">
       <class name="com.healthdata.tests.TwoLinksAssertion">
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.healthdata.tests.TwoLinksAssertion@31ef45e3]" name="setUpTest" is-config="true" duration-ms="244" started-at="2018-07-29T23:32:07Z" finished-at="2018-07-29T23:32:07Z">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.healthdata.tests.TwoLinksAssertion@31ef45e3]" name="setUpTest" is-config="true" duration-ms="260" started-at="2018-07-30T02:54:28Z" finished-at="2018-07-30T02:54:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.healthdata.tests.TwoLinksAssertion@31ef45e3]" name="setUp" is-config="true" duration-ms="5671" started-at="2018-07-29T23:32:07Z" finished-at="2018-07-29T23:32:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.healthdata.tests.TwoLinksAssertion@31ef45e3]" name="setUp" is-config="true" duration-ms="6852" started-at="2018-07-30T02:54:28Z" finished-at="2018-07-30T02:54:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ClickOnTwoLinks()[pri:0, instance:com.healthdata.tests.TwoLinksAssertion@31ef45e3]" name="ClickOnTwoLinks" duration-ms="1236" started-at="2018-07-29T23:32:13Z" finished-at="2018-07-29T23:32:14Z">
+        <test-method status="PASS" signature="ClickOnTwoLinks()[pri:0, instance:com.healthdata.tests.TwoLinksAssertion@31ef45e3]" name="ClickOnTwoLinks" duration-ms="3093" started-at="2018-07-30T02:54:35Z" finished-at="2018-07-30T02:54:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnTwoLinks -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.healthdata.tests.TwoLinksAssertion@31ef45e3]" name="tearDown" is-config="true" duration-ms="860" started-at="2018-07-29T23:32:14Z" finished-at="2018-07-29T23:32:15Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.healthdata.tests.TwoLinksAssertion@31ef45e3]" name="tearDown" is-config="true" duration-ms="981" started-at="2018-07-30T02:54:38Z" finished-at="2018-07-30T02:54:39Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.healthdata.tests.TwoLinksAssertion@31ef45e3]" name="tearDownTest" is-config="true" duration-ms="0" started-at="2018-07-29T23:32:15Z" finished-at="2018-07-29T23:32:15Z">
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.healthdata.tests.TwoLinksAssertion@31ef45e3]" name="tearDownTest" is-config="true" duration-ms="1" started-at="2018-07-30T02:54:39Z" finished-at="2018-07-30T02:54:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
