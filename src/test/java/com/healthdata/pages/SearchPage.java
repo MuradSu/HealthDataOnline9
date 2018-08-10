@@ -94,6 +94,9 @@ public class SearchPage {
 	@FindBy(id="edit-sort-by")
 	public WebElement sortBy;
 	
+	
+	@FindBy(id="facetapi-link--91")
+	public WebElement testCase3;
 
     @FindBy(xpath="//div[@class='view-header']")
     public WebElement healthAndCommunity;

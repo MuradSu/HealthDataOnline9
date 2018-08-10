@@ -3,26 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-<<<<<<< HEAD
       <class name="com.healthdata.tests.TwoLinksAssertion">
         <methods>
           <include name="tearDown"/>
           <include name="ClickOnTwoLinks"/>
-=======
-      <class name="com.healthdata.tests.verfiySort">
-        <methods>
-          <include name="tearDown"/>
-          <include name="sortTest"/>
->>>>>>> b3495c31e5500c89e45d7cccd7bfb9969aa2347f
           <include name="tearDownTest"/>
           <include name="setUpTest"/>
           <include name="setUp"/>
         </methods>
-<<<<<<< HEAD
       </class> <!-- com.healthdata.tests.TwoLinksAssertion -->
-=======
-      </class> <!-- com.healthdata.tests.verfiySort -->
->>>>>>> b3495c31e5500c89e45d7cccd7bfb9969aa2347f
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

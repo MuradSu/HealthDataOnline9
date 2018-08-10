@@ -6,6 +6,14 @@ public class searchTest extends TestBase {
 	
 	@Test(groups = { "smoke" })
 	public void test() {
+	
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 }
