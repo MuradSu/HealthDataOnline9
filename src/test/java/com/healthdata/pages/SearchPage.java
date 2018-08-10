@@ -98,8 +98,8 @@ public class SearchPage {
     @FindBy(xpath="//div[@class='view-header']")
     public WebElement healthAndCommunity;
 
-//	@FindBy(id="anch_108")
-	//public WebElement feedbackButton;
+	@FindBy(id="anch_108")
+	public WebElement feedbackButton;
 	
 
 	
